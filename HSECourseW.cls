@@ -52,11 +52,6 @@
 % Подписи к таблицам
 \addto\captionsrussian{\renewcommand{\tablename}{Таблица}}
 
-\RequirePackage{stackengine}
-
-\newcommand{\centersub}[2]{%
-	\stackunder[2pt]{#1}{\footnotesize #2}%
-}
 
 % Содержание
 \renewcommand{\contentsname}{Содержание}
@@ -163,5 +158,3 @@
 }{%
 
 }
-
-\newcommand{\keywords}[1]{\renewcommand{\@keywords}{#1}}
